@@ -1,8 +1,20 @@
 # 專案名稱
 ### Titanic - Machine Learning from Disaster
 # 描述
-Kaggle 提供鐵達尼號上所有乘客的基本資料，包含PassengerId, Pclass,	Name,	Sex,	Age,	SibSp,	Parch,	Ticket,	Fare,	Cabin,	Embarked
-，並且還附上這些乘客最後是存活下來還是罹難。
+Kaggle 提供鐵達尼號上所有乘客的基本資料，並且還附上這些乘客最後是存活下來還是罹難。
+
+1. PassengerId: 乘客ID
+2. Pclass: 艙位分級 1,2,3
+3. The Name of the passeger: 乘客全名
+4. The Sex: 性別
+5. The Age: 年紀
+6. SibSp: 與乘客同行的兄弟姊妹和配偶的數量 (旁系人數)
+7. Parch: 與乘客同行的父母和兒童人數 (直系人數)
+8. The ticket number: 船票編號
+9. The ticket Fare: 船票價格
+10.The cabin number: 艙室編號
+11.The embarkation: 人們可能登船的三個區域 (S,C,Q)
+
 # 工作
 1. 資料預處理
 2. 通過機器學習模型找出訓練資料的規律
