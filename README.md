@@ -23,8 +23,18 @@ Kaggle 提供鐵達尼號上所有乘客的基本資料，並且還附上這些�
 # 資料數量
 1. 訓練資料數量: 891筆
 2. 測試資料數量: 418筆
-# 
 # 資料探索分析
 1. 女生(罹難數、生存數)、男生(罹難數、生存數)
-![image](https://github.com/JN11540/Kaggle_Titanic/blob/master/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202024-02-17%20110804.png)
-1. 女生(罹難數、生存數)、男生(罹難數、生存數)
+![image](https://github.com/JN11540/Kaggle_Titanic/blob/master/img/1.png)
+2. 女生(罹難生存百分比)、男生(罹難生存百分比)
+![image](https://github.com/JN11540/Kaggle_Titanic/blob/master/img/2.png)
+3. 女生(罹難者歲數分布、生存者歲數分布)、男生(罹難者歲數分布、生存者歲數分布)
+![image](https://github.com/JN11540/Kaggle_Titanic/blob/master/img/3.png)
+4. 票價分布(票價分成多個間隔，察看每個間隔罹難數、生存數)
+![image](https://github.com/JN11540/Kaggle_Titanic/blob/master/img/4.png)
+5. 橫軸(年紀)、總軸(票價)
+![image](https://github.com/JN11540/Kaggle_Titanic/blob/master/img/5.png)
+6. 橫軸(艙位分級)、總軸(票價)
+![image](https://github.com/JN11540/Kaggle_Titanic/blob/master/img/6.png)
+7. 橫軸(登船的三個區域)、總軸(票價)
+![image](https://github.com/JN11540/Kaggle_Titanic/blob/master/img/7.png)
