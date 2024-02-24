@@ -38,3 +38,14 @@ Kaggle 提供鐵達尼號上所有乘客的基本資料，並且還附上這些�
 ![image](https://github.com/JN11540/Kaggle_Titanic/blob/master/img/6.png)
 7. 橫軸(登船的三個區域)、總軸(票價)
 ![image](https://github.com/JN11540/Kaggle_Titanic/blob/master/img/7.png)
+# 特徵工程
+1. 將訓練數據與測試數據合併，並刪除 PassengerId 欄位
+![image](https://github.com/JN11540/Kaggle_Titanic/blob/master/img/8.png)
+2. "分類"的欄位需要進行 One hot encoding、"大小關係"的欄位不需要處理
+3. Name 欄位有 17 個稱位，'Sir', 'Lady', 'Mr', 'Mlle', 'Mrs', 'Don', 'Mme', 'Jonkheer', 'Dr', 'Ms', 'the Countess', 'Master', 'Major', 'Col', 'Rev', 'Capt', 'Miss'-> 修剪成 6 個稱位 'Officer', 'Royalty', 'Mr', 'Mrs', 'Miss', 'Master'
+4. 根據 Sex, Pclass, Title 來填補 Age 欄位的缺失值
+![image](https://github.com/JN11540/Kaggle_Titanic/blob/master/img/9.png)
+5. 特徵工程結束時，從 11 個欄位擴增至 67 個欄位
+# 資料清洗
+1. 由模型來評量每個欄位重要程度，以重要程度刪除欄位
+2. 選用的模型時隨機森林
