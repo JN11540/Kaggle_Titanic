@@ -49,4 +49,5 @@ Kaggle 提供鐵達尼號上所有乘客的基本資料，並且還附上這些�
 # 資料清洗
 1. 由模型來評量每個欄位重要程度，以重要程度刪除欄位
 ![image](https://github.com/JN11540/Kaggle_Titanic/blob/master/img/10.png)
+2. 67 個欄位縮減至 11 個欄位
 3. 選用的模型時隨機森林
